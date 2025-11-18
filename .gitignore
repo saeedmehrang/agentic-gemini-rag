@@ -1,0 +1,65 @@
+# == Environment ==
+# Virtual environment directory
+.venv
+venv
+env
+/tmp
+
+# Packages
+__pycache__
+*.py[cod]
+*.so
+
+# Installer
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+
+# == IDE and Editor Files ==
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# PyCharm
+.idea/
+
+# Editors
+*~
+*.bak
+*.swp
+*.swo
+
+# == Testing and Coverage ==
+# pytest and coverage
+.pytest_cache
+.coverage
+htmlcov/
+.nox/
+
+# == Data and Logs ==
+# Logs and database files
+*.log
+*.sqlite
+/db.sqlite3
+
+# The 'unstructured' library often creates a temporary file structure
+.cache/
+
+# .env file containing secrets (MANDATORY TO IGNORE)
+.env
+
+# == Tool-specific Files ==
+# mypy cache
+.mypy_cache/
+
+# Ruff cache
+.ruff_cache/
+
+# Jupyter/IPython Notebook artifacts
+.ipynb_checkpoints
